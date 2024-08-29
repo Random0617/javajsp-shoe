@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
+	<jsp:include page="Menu.jsp"></jsp:include>
+	<br/>
     <div class="container">
         <h2 class="my-4 text-center">Checkout</h2>
         <c:choose>
